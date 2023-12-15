@@ -61,7 +61,7 @@ const Quiz = () => {
       <h1 className="text-3xl font-bold text-slate-700">
         Question {quesIndex + 1} of {questions.length}
       </h1>
-      <p className="text-slate-500 mt-1.5">{questions[quesIndex].type}</p>
+      <p className="text-slate-500 mt-1.5">{questions[quesIndex].category}</p>
 
       <div className="flex ">
         <div className="star-rating">
